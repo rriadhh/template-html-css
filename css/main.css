@@ -327,15 +327,22 @@ background-color: var(--section-background);
   border-top-right-radius: 10px;
   max-width: 100%;
 }
-@media (max-width: 575px) {
+@media (max-width:575px) {
   .portfolio .card .image img {
-    width: 400px;
-    height: 250px;
+    width: 300px;
+    height: 150px;
   }
   .portfolio .card {
-    width: 400px;
+    width: 300px;
     margin-left: auto;
     margin-right: auto;
+  }
+}
+/* small screnn */
+@media (max-width: 480px) {
+  .portfolio .card .image img {
+    width: 200px;
+    height: 120px;
   }
 }
 .portfolio .card .info {
