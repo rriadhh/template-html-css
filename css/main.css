@@ -341,8 +341,13 @@ background-color: var(--section-background);
 /* small screnn */
 @media (max-width: 480px) {
   .portfolio .card .image img {
-    width: 200px;
-    height: 120px;
+    width: 250px;
+    height: 125px;
+  }
+    .portfolio .card {
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 .portfolio .card .info {
